@@ -8,13 +8,14 @@
 	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 	<title></title>
-	<meta name="description" content="Women for Indonesia twibbon generator">
-	<meta name="keyword" content="WFI, Women, for Indonesia, women for indonesia, twibbon, generator"></head>
-<body style="background: #f9f9f9">
+	<body style="
+	background: url(bg.png);
+  	background-repeat: no-repeat;
+  	background-size: 2000px 1000px;">
 	<nav class="navbar navbar-light bg-white shadow-sm">
 		<div class="container">
 			<a class="navbar-brand" href="fastupb.com">
-				<img src="logo.png">
+				<img src="logo-svg.svg">
 			</a>
 		</div>
 	</nav>
@@ -50,7 +51,7 @@
 										$gambar = "images/" . $namabaru;
 
 										echo '<img src="'.$gambar.'" id="img1" width="500px" height="1084px" hidden="true" class="img-fluid">';
-										echo '<img src="twibbon.png" id="img2" " hidden="true" class="img-fluid">';
+										echo '<img src="twibbon.png" id="img2" width="2084px" height="2084px" hidden="true" class="img-fluid">';
 										echo '<h2><canvas id="canvas" class="img-fluid"></canvas></h2>';
 										echo '<a id="download" class="btn btn-primary mb-3 text-white">Download gambar</a>';
 									}
