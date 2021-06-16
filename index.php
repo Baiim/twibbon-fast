@@ -9,13 +9,11 @@
 
 	<title></title>
 	<meta name="description" content="Women for Indonesia twibbon generator">
-	<meta name="keyword" content="WFI, Women, for Indonesia, women for indonesia, twibbon, generator">
-	<link rel="canonical" href="https://cicacode.com/twibbon/">
-</head>
+	<meta name="keyword" content="WFI, Women, for Indonesia, women for indonesia, twibbon, generator"></head>
 <body style="background: #f9f9f9">
 	<nav class="navbar navbar-light bg-white shadow-sm">
 		<div class="container">
-			<a class="navbar-brand" href="https://cicacode.com/twibbon">
+			<a class="navbar-brand" href="fastupb.com">
 				<img src="logo.png">
 			</a>
 		</div>
@@ -51,7 +49,7 @@
 										move_uploaded_file($_FILES["file"]["tmp_name"], "images/" . $namabaru);
 										$gambar = "images/" . $namabaru;
 
-										echo '<img src="'.$gambar.'" id="img1" width="100px" height="100px" hidden="true" class="img-fluid">';
+										echo '<img src="'.$gambar.'" id="img1" width="500px" height="1084px" hidden="true" class="img-fluid">';
 										echo '<img src="twibbon.png" id="img2" " hidden="true" class="img-fluid">';
 										echo '<h2><canvas id="canvas" class="img-fluid"></canvas></h2>';
 										echo '<a id="download" class="btn btn-primary mb-3 text-white">Download gambar</a>';
